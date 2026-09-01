@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #e2e2e2;
+    background-color: #0a0a0a;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Cinzel", "Hanken Grotesk", Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+
+  code, pre, .font-mono {
+    font-family: "JetBrains Mono", monospace;
+  }
+}
+
+.font-serif-brand {
+  font-family: "Cinzel", Georgia, serif;
+}
+
+.font-serif-classic {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+.dot-grid {
+  background-color: #0a0a0a;
+  background-image: radial-gradient(#222222 1.25px, transparent 1.25px);
+  background-size: 24px 24px;
+}
+
+.canvas-shadow {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6), 0 0 1px rgba(197, 163, 104, 0.15);
+}
+
+.popover-shadow {
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(197, 163, 104, 0.2);
+}
+
+.level-3 {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9), 0 0 0 1px rgba(197, 163, 104, 0.25);
+}
+
+.gold-glow {
+  box-shadow: 0 0 15px rgba(197, 163, 104, 0.25);
+}
+
+/* Custom scrollbar for dark panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 9999px;
+  border: 1px solid #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c5a368;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.material-symbols-outlined.fill-1 {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}

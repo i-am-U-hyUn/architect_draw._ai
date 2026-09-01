@@ -1,0 +1,6 @@
+{
+  "name": "FluxFlow - Architectural Logic",
+  "description": "System architecture diagramming and technical workflow visualizer with interactive nodes, live inspector, templates library, and version archive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
